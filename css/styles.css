@@ -1,0 +1,126 @@
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+    padding: 5px 20px;
+}
+ul li a:hover{
+    background-color: #fff;
+    color: crimson;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10%;
+background-image: url(../images/pizzabg3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+    width: 100%;
+    height: 500px;
+}
+h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.about{
+    text-align: center;
+    font-weight: bolder;
+   padding: 65px 50px 85px;
+   width: 100%;
+   background-color: cyan;
+   text-align: justify;
+   overflow-x: hidden;
+   float: right;
+}
+.row{
+    padding: 2%;
+    box-sizing: border-box;
+    display: flex;
+}
+#list li {
+    font-size: 24px;
+    font-family: system-ui, serif;
+}
+
+.order-summary h1, .summary, .contact {
+    color: #000;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin-top: 30px:
+}
+.click-me, button[type=submit], .deliver, .delivernot {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
+    background-color: red;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
+}
+.deliver, .delivernot {
+    margin: 10px;
+}
+#order-pizza {
+    padding: 20px 50px 20px 50px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.order-overlay {
+    width: 100%;
+    height: 100%;
+    padding: 80px;
+    background-color: palegreen;
+    border-radius: 20px;
+    text-overflow: inherit;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.checkout {
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.pizz {
+    color: lawngreen;
+}
+.menu-overlay{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(red, green, blue, alpha);
+}
+#menu{
+    margin-top: 30px;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+.contact-overlay{
+    background-color: pink;
+}
+h1{
+    color: red;
+}

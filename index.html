@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA-MOJO</title>
+    <link rel="icon" href="images/pizza mojo.jpeg" type="image">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <div class="landing page">
+        <div id="landing">
+            <ul>
+                <li><a href="#About us">About Us</a></li>
+                <li><a href="#Menu">Menu</li>
+                    <li><a href="#Contact us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <h1>PIZZA-MOJO<br>Try something amazing!!</br></h1>
+        
+    </div>
+
+     <div class="container-fluid section">
+     <div class="controls-top text-center" id="About us">
+         <div class="col-sm-10 align-items-center">
+    <div class="about">
+        <h2>ABOUT US</h2>
+        <p>Pizza Mojo is not only proud to be Kenya's favourite pizza,but also the leading pizza restaurant in Africa.Our innovation
+            and creativity has enable us to offer the widest range of pizzas,allowing our customers to choose from our range
+            of classic,favourite,signature and something of special pizzas.Our pizzas are made with crusts,lost of tippigs and 
+            the perfect blend of souces.
+        </p>
+        <p>pizza mojo gives each and every customer quality and value for their money.We also offer great side orders
+            like potato wedges,chicken wings, and of course we have our unforgettable hot subs,french baguette filled with
+            mazzaille cheese and toppings of your choice  <em>pizza mojo-Try something amazing.</em>
+        </p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    
+        <div class="menu-overlay">
+            <h1>check our menu</h1>
+            <div class="row">
+                
+                <div class="col-sm-3">
+                    <img src="images/Barbecue chicken pizza.jpeg" alt="Barbecue">
+                    <h5 class="card-tittle">Barbecue chicken pizza</h5>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-3">
+                    <img src="images/buffalo chicken pizza.jpeg" alt="buffalo">
+                    <h5 class="card-tittle">buffalo chicken pizza</h5>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-3">
+                    <img src="images/Garlic chicken pizza.jpeg" alt="Garlic">
+                    <h5 class="card-tittle">Garlic chicken pizza</h5>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-3">
+                    <img src="images/Grilled white pizza.jpeg" alt="grilled">
+                    <h5 class="card-tittle">Grilled white pizza</h5>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-3">
+                    <img src="images/Tandori chicken pizza.jpeg" alt="tandori">
+                    <h5 class="card-tittle">Tandori chicken pizza</h5>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    
+            <div class="orders" id="order">
+                <h1 class="text-center">Order Now!!</h1>
+                <div class="form-group row">
+                    <div class="col-sm-2">
+                    <div class="col-sm-8 order-overlay text-center">
+                        <form class="col-sm-6 offset-sm-3 text-center">
+                            <label>Pick your pizza Flavour:</label>
+                            <select class="custom-select custom-select-md mb-3 flavour" required>
+                                <option value="vegtikka">Veg Tikka</option>
+                                <option value="chickentikka">Chicken Tikka</option>
+                                <option value="periperi">Peri-Peri Chicken</option>
+                                <option value="bbq">BBQ Steak</option>
+                                <option value="boerewors">Boerewors</option>
+                                <option value="hawaiian">Hawaiian</option>
+                                <option value="mushroom">Chicken and Mushroom</option>
+                                <option value="regina">Regina Pizza</option>
+                            </select>
+                            <label>Chose your preferred Size:</label>
+                            <select class="custom-select custom-select-md mb-3" id="size" required>
+                                <option value="regular">Regular</option>
+                                <option value="medium">Medium</option>
+                                <option value="large">Large</option>
+                            </select>
+                            <label for="crust">Choose your favorite Crust:</label>
+                            <select class="custom-select custom-select-md mb-3" id="crust" required>
+                                <option value="thin">Thin Crust @ Ksh. 100</option>
+                                <option value="thick">Thick Crust @ Ksh. 150</option>
+                                <option value="flatbread">FlatBread Crust @ sh. 180</option>
+                                <option value="custom">Custom Crust @ sh. 280</option>
+                            </select>
+                            <label>Select Your favourite Toppings</label>
+                            <select class="custom-select custom-select-md mb-3" id="toppings" required>
+                                <option value="tomato">Tomato @ sh. 80</option>
+                                <option value="onions">Onions @ sh. 80</option>
+                                <option value="mushroom">Mushroom @ sh. 80</option>
+                                <option value="greenpepper">Green Pepper @ sh. 80</option>
+                                <option value=""></option>
+                                <option value="olives">Olives @ sh. 120</option>
+                                <option value="pineapple">Pineapple @ sh. 120</option>
+                                <option value="sweetcorn">Sweet Corn @ sh. 120</option>
+                                <option value="macon">Macon @ sh. 120</option>
+                                <option value="mince">Mince @ sh. 120</option>
+                                <option value=""></option>
+                                <option value="beef">Beef Peperoni @ sh. 170</option>
+                                <option value="chicken">Periperi Chicken @ sh. 170</option>
+                            </select>
+                            <label for="number">Number of Pizza's</label>
+                            <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+            
+            
+                        </form>
+                        <a href="#summary">
+                            <button type="submit" class="btn btn-success checkout" id="checkout">
+                                Checkout
+                            </button>
+                        </a>
+            
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+            </div>
+            
+            <div class="order-summary" id="sum-order">
+                <h1 class="text-center" id="summary">Order details</h1>
+                <h2 class="text-center summary"> your order is as follows:</h2>
+                <ol id="list" class="text-center sum">
+                </ol>
+            
+            
+                <div class="cdata-overlay">
+                    <div class="customerdata row">
+                        <div class="col-sm-3"></div>
+                        <form action="" class="form-group col-sm-6 data">
+                            <input type="text" class="form-control cdata" placeholder="Enter your Name:">
+                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
+                            <input type="text" class="form-control cdata" placeholder="Enter the location: ">
+                            <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                        </form>
+            
+                        <div class="col-sm-3"></div>
+                    </div>
+                </div>
+                <div class="d-block mx-auto text-center">
+                    <button class='deliver'> Delivery</button>
+                    <button class='delivernot'>Pick Up</button>
+                </div>
+            </div>
+
+                 <div class="contact">
+                     <div class="contact-overlay">
+    <h2>contact us</h2>
+    <p>Send Us Message</p>
+    <p>pizza Mojo kenya.</p>
+        <p>call us +254786903</p>
+<form action="">
+    <div class="form-group">
+        <input type="text" id="name" class="form-control mb-3" placeholder="your name" required>
+        <input type="text" id="email" class="form-control mb-3" placeholder="your email" required>
+        <input type="text" id="subject" class="form-control mb-3" placeholder=" subject">
+        <input type="text" id="message" class="form-control mb-3" placeholder="message" required>
+        <button class="btn btn-orange" button type="send">send</button>
+    </div>
+</div>
+</form>
+<script src="js/mdb.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+
+</div>
+
+                
+                    
+                
+        
+</body>
+</html> 
